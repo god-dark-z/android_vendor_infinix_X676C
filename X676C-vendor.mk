@@ -379,11 +379,8 @@ PRODUCT_PACKAGES += \
     NetworkStackResOverlay \
     TetheringResOverlay \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
-    android.hardware.boot@1.2.xml \
-    android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.gnss-service.mediatek \
-    android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.secure_element@1.2-service-mediatek \
@@ -392,7 +389,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.secureclock-service.trustonic.xml \
     android.hardware.security.sharedsecret-service.trustonic.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
-    android.hardware.wifi@1.0-service.xml \
     arm.graphics-V1-ndk_platform \
     audio.primary.mediatek \
     camerahalserver \
@@ -400,6 +396,7 @@ PRODUCT_PACKAGES += \
     ccci_rpcd \
     fuelgauged \
     fuelgauged_nvram \
+    gnss-mtk.xml \
     gnss@2.1-service.xml \
     gps.default \
     gralloc.common \
@@ -753,26 +750,19 @@ PRODUCT_PACKAGES += \
     libvpu5 \
     libwpfa \
     libwvhidl \
-    lights-mtk-default.xml \
-    manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_apuware_apusys.xml \
     manifest_apuware_hmp.xml \
     manifest_apuware_utils.xml \
     manifest_cameraprovider.xml \
+    manifest_chipone.xml \
     manifest_hwcomposer.xml \
-    manifest_media_c2_V1_1_default.xml \
-    manifest_silead.xml \
-    manifest_storage.xml \
-    manifest_tneengine.xml \
     mcDriverDaemon \
-    memtrack-mediatek.xml \
     mnld \
     mtk_agpsd \
     mtkfusionrild \
     netdagent \
     nvram_daemon \
-    power-default.xml \
     rcs_volte_stack \
     sensors.mediatek.V2.0 \
     tetheroffloadservice \
@@ -855,7 +845,6 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     vendor.trustonic.tee@1.1-service \
-    vibrator-mtk-default.xml \
     volte_clientapi_ua \
     volte_rcs_ua \
     vtservice_hidl \

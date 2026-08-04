@@ -75,33 +75,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.boot@1.2.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.cas@1.2-service-lazy.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.health@2.1.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks-shim-service-mtk.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
@@ -147,9 +120,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi@1.0-service.xml",
+	name: "gnss-mtk.xml",
 	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -159,24 +132,6 @@ prebuilt_etc_xml {
 	name: "gnss@2.1-service.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "lights-mtk-default.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.clearkey.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -237,60 +192,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_media_c2_V1_1_default.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_silead.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_silead.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_storage.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_storage.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_tneengine.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_tneengine.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "memtrack-mediatek.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "power-default.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.mediatek.hardware.paytrigger@1.0-service.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.paytrigger@1.0-service.xml",
@@ -312,15 +213,6 @@ prebuilt_etc_xml {
 	name: "vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vibrator-mtk-default.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
