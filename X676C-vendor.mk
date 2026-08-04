@@ -5,6 +5,27 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+    vendor/infinix/X676C/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    vendor/infinix/X676C/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_stub.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_default_stream_volumes.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_product_strategies.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk \
+    vendor/infinix/X676C/proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk \
+    vendor/infinix/X676C/proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk \
+    vendor/infinix/X676C/proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackResOverlay/NetworkStackResOverlay.apk \
+    vendor/infinix/X676C/proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringResOverlay/TetheringResOverlay.apk \
     vendor/infinix/X676C/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/infinix/X676C/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/infinix/X676C/proprietary/vendor/app/mcRegistry/05120000000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/05120000000000000000000000000001.drbin \
@@ -34,7 +55,14 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/lightforgender_addindian_tf113_test5_converted.mnn:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgender_addindian_tf113_test5_converted.mnn \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/lightforgenderandage_tf113_test4.tflite:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgenderandage_tf113_test4.tflite \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/lightforgenderandage_tf113_test4_converted.mnn:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgenderandage_tf113_test4_converted.mnn \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/cache_data:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/cache_data \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/capture_cache:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/capture_cache \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/capture_model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/capture_model \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/capture_policy:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/capture_policy \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/dof_mecp.bin:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/dof_mecp.bin \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/preview_cache:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/preview_cache \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/preview_model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/preview_model \
+    vendor/infinix/X676C/proprietary/vendor/data/camera/model/megii_dualcam/preview_policy:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/preview_policy \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/meishefilter/Paris06.mslut:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/meishefilter/Paris06.mslut \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/meishefilter/abao.mslut:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/meishefilter/abao.mslut \
     vendor/infinix/X676C/proprietary/vendor/data/camera/model/meishefilter/heijin01.mslut:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/meishefilter/heijin01.mslut \
@@ -58,8 +86,18 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/data/camera/watermark/watermark_640x480.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_640x480.yuyv \
     vendor/infinix/X676C/proprietary/vendor/data/camera/watermark/watermark_config:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_config \
     vendor/infinix/X676C/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/ac8MobileLegensModelLabel.txt:$(TARGET_COPY_OUT_VENDOR)/etc/ac8MobileLegensModelLabel.txt \
+    vendor/infinix/X676C/proprietary/vendor/etc/aee-commit:$(TARGET_COPY_OUT_VENDOR)/etc/aee-commit \
+    vendor/infinix/X676C/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
+    vendor/infinix/X676C/proprietary/vendor/etc/arc.ini:$(TARGET_COPY_OUT_VENDOR)/etc/arc.ini \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
@@ -122,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
@@ -177,13 +216,41 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/preset_ringtone.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_ringtone.bin \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_param/preset_voip.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_voip.bin \
     vendor/infinix/X676C/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/cam3atms_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cam3atms_profiles.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/card_tray_detect.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/card_tray_detect.cfg \
     vendor/infinix/X676C/proprietary/vendor/etc/cloudengine/ReadMe.txt:$(TARGET_COPY_OUT_VENDOR)/etc/cloudengine/ReadMe.txt \
     vendor/infinix/X676C/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
+    vendor/infinix/X676C/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_44.bin \
     vendor/infinix/X676C/proprietary/vendor/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_48.bin \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/beq44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/beq44 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/beq48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/beq48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/ctc:$(TARGET_COPY_OUT_VENDOR)/etc/dts/ctc \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/current_bluetooth44k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_bluetooth44k \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/current_bluetooth48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_bluetooth48k \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/current_lineout48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_lineout48k \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/current_speaker48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_speaker48k \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/current_usb44k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_usb44k \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/current_usb48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_usb48k \
     vendor/infinix/X676C/proprietary/vendor/etc/dts/customer.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dts/customer.cfg \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/dts_audio_settings:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts_audio_settings \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/games_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/games_accessory44 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/games_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/games_accessory48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/games_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/games_speaker48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/movie_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/movie_accessory44 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/movie_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/movie_accessory48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/movie_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/movie_speaker48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/music_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/music_accessory44 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/music_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/music_accessory48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/music_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/music_speaker48 \
+    vendor/infinix/X676C/proprietary/vendor/etc/dts/off_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/off_speaker48 \
     vendor/infinix/X676C/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -194,6 +261,9 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
+    vendor/infinix/X676C/proprietary/vendor/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.emmc \
+    vendor/infinix/X676C/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     vendor/infinix/X676C/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/infinix/X676C/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
     vendor/infinix/X676C/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
@@ -249,15 +319,201 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/infinix/X676C/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/infinix/X676C/proprietary/vendor/etc/logExportConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/logExportConfig.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/memfusion2/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/memfusion2/fstab.enableswap \
     vendor/infinix/X676C/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
+    vendor/infinix/X676C/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/infinix/X676C/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/infinix/X676C/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/mtk_vext_info:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_vext_info \
+    vendor/infinix/X676C/proprietary/vendor/etc/nn/ot/neuron_detection.mdla3_0:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_detection.mdla3_0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/nn/ot/neuron_tracking.mdla3_0:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_tracking.mdla3_0 \
     vendor/infinix/X676C/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/blacklist.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/blacklist.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/keep_alive_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/keep_alive_config.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/memfusion_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/memfusion_config.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_2g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_2g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_3g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_3g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_4g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_4g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_6g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_6g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_8g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_8g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_apm_2g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_apm_2g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_apm_3g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_apm_3g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_apm_4g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_apm_4g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_apm_6g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_apm_6g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/policy_config_apm_8g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/policy_config_apm_8g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/whitelist_2g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_2g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/whitelist_3g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_3g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/whitelist_4g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_4g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/whitelist_6g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_6g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/performance/whitelist_8g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_8g_ram.json \
+    vendor/infinix/X676C/proprietary/vendor/etc/pnpmgr.db:$(TARGET_COPY_OUT_VENDOR)/etc/pnpmgr.db \
     vendor/infinix/X676C/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
+    vendor/infinix/X676C/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
+    vendor/infinix/X676C/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
+    vendor/infinix/X676C/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    vendor/infinix/X676C/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+    vendor/infinix/X676C/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/111e6273.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/12d55845.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/12d55845.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/1ae85e5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1ae85e5e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/1eb37bdf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1eb37bdf.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/27af790d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/27af790d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/2add47b6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2add47b6.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/2d9dafe4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2d9dafe4.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/2fa87019.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2fa87019.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/302904dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/302904dd.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/304d27c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/304d27c3.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/31188b5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/31188b5e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/33ee480d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/33ee480d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/343eb6cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/343eb6cb.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/35105088.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/35105088.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/399e7759.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3ad48a91.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/3c6676aa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c6676aa.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/3c860d51.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c860d51.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/3c899c73.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c899c73.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/3c9a4d3b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c9a4d3b.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/3e7271e8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3e7271e8.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/40dc992e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/40dc992e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/524d9b43.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/524d9b43.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/5a250ea7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a250ea7.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/5acf816d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5acf816d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/5cf9d536.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5cf9d536.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/5f47b495.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f47b495.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/60afe812.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/60afe812.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/6187b673.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6187b673.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/63a2c897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/63a2c897.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/69105f4f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/69105f4f.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/6b03dec0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6b03dec0.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/75680d2e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/76579174.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/76579174.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/89c02a45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/89c02a45.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/8d6437c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8d6437c3.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9282e51c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9282e51c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9339512a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9339512a.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9479c8c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9479c8c3.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9576d26b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9576d26b.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9591a472.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9591a472.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/95aff9e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/95aff9e3.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9685a493.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9685a493.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/985c1f52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/985c1f52.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9aef356c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9aef356c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9d6523ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9d6523ce.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/9f533518.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9f533518.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/a2c66da8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a2c66da8.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/a3896b44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a3896b44.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/a7605362.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a7605362.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/a81e292b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a81e292b.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/a9d40e02.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a9d40e02.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/ab5346f4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab5346f4.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/ab59055e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab59055e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/aeb67534.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/aeb67534.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/e48193cf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e48193cf.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/edcbddb5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/edcbddb5.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts/fde84897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fde84897.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/cec771d5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/cec771d5.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
+    vendor/infinix/X676C/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/infinix/X676C/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
+    vendor/infinix/X676C/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/infinix/X676C/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/thermal/disable_thermal_temp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal_temp.conf \
@@ -267,14 +523,35 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/etc/thermal/thermal_policy_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_00.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/thermal/thermal_policy_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_02.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
+    vendor/infinix/X676C/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/infinix/X676C/proprietary/vendor/etc/tranMagiqueSonMode.dat:$(TARGET_COPY_OUT_VENDOR)/etc/tranMagiqueSonMode.dat \
+    vendor/infinix/X676C/proprietary/vendor/etc/tran_avb.pubkey:$(TARGET_COPY_OUT_VENDOR)/etc/tran_avb.pubkey \
     vendor/infinix/X676C/proprietary/vendor/etc/tran_camprofiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tran_camprofiles.xml \
-    vendor/infinix/X676C/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
+    vendor/infinix/X676C/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot@1.2.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/gnss-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-default.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lbs_hidl_service@1.0.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-mtk-default.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/manifest_silead.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_silead.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/manifest_storage.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_storage.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/manifest_tneengine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_tneengine.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack-mediatek.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/power-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-default.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vibrator-mtk-default.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/infinix/X676C/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
+    vendor/infinix/X676C/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/infinix/X676C/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/infinix/X676C/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
@@ -367,46 +644,136 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X676C/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
     vendor/infinix/X676C/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/infinix/X676C/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/infinix/X676C/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
+    vendor/infinix/X676C/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
+    vendor/infinix/X676C/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_dsds.xml \
+    vendor/infinix/X676C/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/infinix/X676C/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss.xml \
+    vendor/infinix/X676C/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_tsts.xml \
+    vendor/infinix/X676C/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
+    vendor/infinix/X676C/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
+    vendor/infinix/X676C/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
+    vendor/infinix/X676C/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
+    vendor/infinix/X676C/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
+    vendor/infinix/X676C/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
+    vendor/infinix/X676C/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop
 
 PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
+    AVCSecureVdecCA \
+    AgentTest \
     GoogleTetheringResOverlay \
+    HEVCSecureVdecCA \
     InProcessTetheringResOverlay \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
     TetheringResOverlay \
+    VP9SecureVdecCA \
+    aee_aedv64_v2 \
+    aee_dumpstatev_v2 \
+    aeev_v2 \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.audio.service.mediatek \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.bluetooth@1.1-service-mediatek \
+    android.hardware.boot@1.2-service \
+    android.hardware.cas@1.2-service-lazy \
+    android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4-service.widevine \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service \
     android.hardware.gnss-service.mediatek \
+    android.hardware.graphics.composer@2.1-service \
+    android.hardware.graphics.composer@2.3-service \
+    android.hardware.graphics.composer@2.4-service \
+    android.hardware.health@2.1-service \
+    android.hardware.lights-service.mediatek \
+    android.hardware.media.c2@1.2-mediatek \
+    android.hardware.media.c2@1.2-mediatek-64b \
+    android.hardware.media.omx@1.0-service \
+    android.hardware.memtrack-service.mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
+    android.hardware.renderscript@1.0-impl \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint-service.trustonic \
     android.hardware.security.keymint-service.trustonic.xml \
     android.hardware.security.secureclock-service.trustonic.xml \
     android.hardware.security.sharedsecret-service.trustonic.xml \
+    android.hardware.sensors@2.0-service.multihal-mediatek \
+    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@2.0-impl \
+    android.hardware.thermal@2.0-service.mtk \
+    android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.usb@1.2-service-mediatekv2.xml \
+    android.hardware.vibrator-service.mediatek \
+    android.hardware.wifi@1.0-service-lazy \
+    applypatch \
     arm.graphics-V1-ndk_platform \
+    atcid \
+    audio.bluetooth.default \
+    audio.primary.default \
     audio.primary.mediatek \
+    audio.r_submix.default \
+    audio.r_submix.mediatek \
+    audio.usb.default \
+    audio_common-aidl-cpp \
+    audio_policy.stub \
+    audioclient-types-aidl-cpp \
+    audiocmdservice_atci \
+    autobt \
+    bip_ap \
+    boringssl_self_test32 \
+    boringssl_self_test64 \
+    bt_dump \
     camerahalserver \
+    ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
+    chipinfo \
+    conninfra_loader \
+    dconfig \
+    dexecutor \
+    dmabuf_dump \
+    dmc_core \
+    doeapp-memtester \
+    doeapp-sat \
+    dtc_vendor \
+    dumpsys \
+    eara_io_service \
+    em_hidl \
+    factory \
+    fpsgo \
+    framework-permission-aidl-cpp \
     fuelgauged \
     fuelgauged_nvram \
-    gnss-mtk.xml \
+    gatekeeper.default \
+    gatekeeper.trustonic \
+    gbe \
+    getgameserver \
     gnss@2.1-service.xml \
     gps.default \
     gralloc.common \
+    gralloc.default \
     gsm0710muxd \
+    hostapd \
+    hostapd_cli \
     hwcomposer.mtk_common \
+    ipsec_mon \
     jpegtool \
+    kmsetkey.default \
     kmsetkey.trustonic \
     kmsetkey_ca.trustonic \
+    lbs_hidl_service \
+    lbs_hidl_service-impl \
     lib3a.ae \
     lib3a.ae.core \
+    lib3a.ae.pipe \
     lib3a.af \
     lib3a.af.assist \
     lib3a.af.assist.utils \
@@ -419,13 +786,67 @@ PRODUCT_PACKAGES += \
     lib3a.log \
     lib3a.sensors.color \
     lib3a.sensors.flicker \
+    libAVCSecureVencCA \
+    libBasicModule \
+    libCamera_hi1631qmipiraw_360HDR \
+    libCamera_hi1631qmipiraw_3rd_Capture \
+    libCamera_hi1631qmipiraw_3rd_Capture_FD \
+    libCamera_hi1631qmipiraw_3rd_Preview \
+    libCamera_hi1631qmipiraw_3rd_Preview_FD \
+    libCamera_hi1631qmipiraw_Boken_Capture \
+    libCamera_hi1631qmipiraw_Capture_Zoom1 \
+    libCamera_hi1631qmipiraw_Capture_Zoom2 \
+    libCamera_hi1631qmipiraw_FaceBeauty \
+    libCamera_hi1631qmipiraw_HDR_MINUS_EV \
+    libCamera_hi1631qmipiraw_NHDR_0EV \
+    libCamera_hi1631qmipiraw_Preview_Zoom1 \
+    libCamera_hi1631qmipiraw_Preview_Zoom2 \
+    libCamera_hi1631qmipiraw_Resolution \
+    libCamera_hi1631qmipiraw_Resolution_Preview \
+    libCamera_hi1631qmipiraw_Resolution_zoom \
+    libCamera_hi1631qmipiraw_Scene_EIS_Video \
+    libCamera_hi1631qmipiraw_ShortVideo \
+    libCamera_hi1631qmipiraw_SuperNight \
+    libCamera_hi1631qmipiraw_Video_2k \
+    libCamera_hi1631qmipiraw_Video_720 \
+    libCamera_s5kjn1mipiraw_Boken_Capture \
+    libCamera_s5kjn1mipiraw_Capture_Zoom1 \
+    libCamera_s5kjn1mipiraw_Capture_Zoom2 \
+    libCamera_s5kjn1mipiraw_FaceBeauty \
+    libCamera_s5kjn1mipiraw_NHDR_0EV \
+    libCamera_s5kjn1mipiraw_Preview_Zoom1 \
+    libCamera_s5kjn1mipiraw_Preview_Zoom2 \
+    libCamera_s5kjn1mipiraw_Resolution \
+    libCamera_s5kjn1mipiraw_Resolution_zoom \
+    libCamera_s5kjn1mipiraw_ShortVideo \
+    libCamera_s5kjn1mipiraw_SuperNight \
+    libCamera_s5kjn1mipiraw_Video \
+    libCamera_s5kjn1mipiraw_Video_120fps \
+    libCamera_s5kjn1mipiraw_Video_240fps \
+    libCamera_s5kjn1mipiraw_Video_EIS \
+    libCamera_s5kjn1mipiraw_Video_Zoom1 \
+    libCamera_s5kjn1mipiraw_Video_Zoom2 \
     libDR \
+    libDefaultFpsActor \
+    libFrameRecord \
     libGLES_mali \
+    libGLES_meow \
     libHEVCdec_sa.ca7.android \
     libJpgEncPipe \
+    libMEOW_data \
+    libMEOW_gift \
+    libMEOW_qt \
+    libMEOW_trace \
     libMcClient \
     libMcGatekeeper \
+    libMtkOmxAdpcmDec \
+    libMtkOmxAlacDec \
+    libMtkOmxApeDec \
+    libMtkOmxCore \
+    libMtkOmxGsmDec \
+    libMtkOmxMp3Dec \
     libMtkSpeechEnh \
+    libNoFpsActor \
     libNvLutEffect \
     libOpenCL \
     libSQLiteModule_VER_ALL \
@@ -440,6 +861,9 @@ PRODUCT_PACKAGES += \
     libTranGenderDetect \
     libTranHumanLight \
     libTranMSFilter \
+    libTranMegDualDepth \
+    libTranMegDualDepthtoBokeh \
+    libTranMegDualRefocus \
     libTranPlatHW \
     libTranSTPRRepair \
     libTranSTSingleBlur \
@@ -447,7 +871,13 @@ PRODUCT_PACKAGES += \
     libTranSmartDetection \
     libTran_Log \
     libTran_mtkPowerAPI \
+    libVkLayer_mtk_rt_sdk \
     libWaterMarkProc \
+    lib_eara_io_scndet \
+    lib_eara_io_service \
+    lib_eara_io_systracer \
+    lib_eara_io_timer \
+    lib_eara_io_util \
     lib_iir \
     lib_speech_enh \
     libaaa_ltm \
@@ -457,6 +887,8 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libaalservice \
+    libacdk \
+    libadpcmdec_mtk \
     libaedv \
     libaiawb_moon \
     libaiawb_p1ggm \
@@ -467,13 +899,20 @@ PRODUCT_PACKAGES += \
     libaibc_tuning_p4 \
     libaidepth_tuning \
     libaiselector \
+    libalsautils \
     libamipengine \
+    libanc_dc_base \
     libanc_hdr \
     libancbase \
+    libapmonitor_vendor \
+    libappgamepq \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
     libapusys_edma \
+    libarcsoft_chart_free_calibration \
+    libarcsoft_dualcam_wt_calibration \
+    libarcsoft_dualcam_wt_verification \
     libarcsoft_torch_portrait_night \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
@@ -481,22 +920,34 @@ PRODUCT_PACKAGES += \
     libasn1c_mapi \
     libasn1c_mdmi \
     libaudio_param_parser-vnd \
+    libaudioclient_aidl_conversion \
+    libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
     libaudiocomponentengine_vendor \
     libaudiocomponentenginec \
     libaudiocustparam_vendor \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
+    libaudiofoundation \
     libaudioloudc \
+    libaudiopreprocessing_mtk \
     libaudioprimarydevicehalifclient \
+    libaudiosmartpamtk \
     libaudiotoolkit_vendor \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
+    libbinderdebug \
     libblisrc32_vendor \
+    libbluetooth_audio_session \
+    libbluetooth_audio_session_mediatek \
+    libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
+    libbluetooth_relayer \
+    libbluetoothem_mtk \
     libbt-vendor \
     libbwc \
+    libcalibverifyW_T \
     libcam.chdr \
     libcam.feature_utils \
     libcam.hal3a.log \
@@ -511,19 +962,23 @@ PRODUCT_PACKAGES += \
     libcam3_transerverengine \
     libcam3atms_profiles \
     libcamalgo.3dnr \
+    libcamalgo.WarpMapResizer \
     libcamalgo.dngop \
     libcamalgo.eis \
     libcamalgo.fdft \
     libcamalgo.fsc \
     libcamalgo.gyro \
+    libcamalgo.hdr10p \
     libcamalgo.lmv \
     libcamalgo.lsc \
+    libcamalgo.mcnr \
     libcamalgo.n3d \
     libcamalgo.nr \
     libcamalgo.platform \
     libcamalgo.platform2 \
     libcamalgo.rotate \
     libcamalgo.utility \
+    libcamalgo.vsdofUtil \
     libcamalgo.vsf \
     libcamalgo.warp \
     libcamera.customae \
@@ -535,42 +990,69 @@ PRODUCT_PACKAGES += \
     libcameracustom.camera.isp \
     libcameracustom.camera.sensors \
     libcameracustom.camera_exif \
+    libcameracustom.eis \
     libcameracustom.flashlight \
     libcameracustom.lens \
     libcameracustom.plugin \
+    libcapctrl \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
+    libclearkeycasplugin \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
+    libcodec2_hidl@1.1 \
+    libcodec2_hidl@1.2 \
+    libcodec2_hidl_plugin \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
+    libcodec2_soft_common \
+    libcodec2_soft_mtk_alacdec \
+    libcodec2_soft_mtk_apedec \
+    libcodec2_soft_mtk_imaadpcmdec \
+    libcodec2_soft_mtk_mp3dec \
+    libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
     libconnfem \
+    libcppbor_external \
     libcustom_nvram \
     libcvsd_mtk \
+    libdatasource \
     libdecrypt \
     libdenoise \
     libdpframework \
+    libdre \
+    libdrmclearkeyplugin \
+    libdts-eagle-shared \
+    libdtsaudio \
+    libdtsdsec \
+    libdynamiclog \
+    libdynproc \
     libeffecthal.base \
     libeyedetector \
     libfacesattribute \
     libfeature.face \
     libfeature.stereo.provider \
     libfeature.vsdof.hal \
+    libfeature_eis \
     libfeature_fsc \
     libfeature_rss \
     libfeatureiodrv_mem \
+    libfeaturepolicy \
+    libfft_vendor \
     libfgauge_gm30 \
     libfile_op \
+    libflatbuffers-cpp \
     libforkexecwrap \
     libformatter \
+    libfsmaudio \
     libged \
     libgpu_aux \
     libgpud \
+    libgpudataproducer \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
@@ -584,12 +1066,16 @@ PRODUCT_PACKAGES += \
     libh264dec_sd.ca7 \
     libh264dec_se.ca7 \
     libh264enc_sa.ca7 \
+    libhapticgenerator \
     libhdrvideo \
     libheichal \
     libhevce_sb.ca7.android \
     libhfmanager \
     libhfmanagerwrapper \
+    libhwc2onfbadapter \
     libhwm \
+    libhyperion_hap_ca \
+    libicd_decoder \
     libifcutils_mtk \
     libimagebuffer_wrapper \
     libimgsensorca \
@@ -600,19 +1086,29 @@ PRODUCT_PACKAGES += \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl \
     libkmsetkey \
     libksensor \
     libladder \
+    libmedia_codeclist \
+    libminiui \
+    libminizip \
     libmipc \
+    libmmagent \
     libmml \
+    libmmprofile \
     libmnetlink_v104 \
     libmnl \
+    libmockdrmcryptoplugin \
+    libmp3dec_mtk \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
     libmpbase \
     libmsbc_mtk \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
+    libmtk_bsg \
     libmtk_drvb \
     libmtkares \
     libmtkcam.atmseventmgr \
@@ -626,6 +1122,7 @@ PRODUCT_PACKAGES += \
     libmtkcam_debugutils \
     libmtkcam_diputils \
     libmtkcam_exif \
+    libmtkcam_fdWarpConvert \
     libmtkcam_grallocutils \
     libmtkcam_hwnode \
     libmtkcam_hwutils \
@@ -657,14 +1154,17 @@ PRODUCT_PACKAGES += \
     libmtkcutils \
     libmtkhardware_legacy \
     libmtkisp_metadata \
+    libmtkisp_metadata_v2 \
     libmtklimiter_vendor \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
+    libmtkperf_client_vendor \
     libmtkproperty \
     libmtkrillog \
     libmtkrilutils \
     libmtkshifter_vendor \
+    libmtkspparser \
     libmtksysutils \
     libmtktinyxml \
     libmtkutils \
@@ -684,15 +1184,27 @@ PRODUCT_PACKAGES += \
     libmvpuop_mtk_cv \
     libmvpuop_mtk_nn \
     libneuralnetworks_sl_driver_mtk_prebuilt \
+    libneuroeara \
     libneuron_adapter_mgvi \
     libneuron_graph_delegate.mtk \
+    libneuron_platform \
     libneuron_runtime.5 \
+    libneuropilot_hal_utils \
     libnir_neon_driver \
     libnir_neon_driver_ndk.mtk.vndk \
     libnpagent \
     libnpagent_server \
     libnvram \
     libnvram_sec \
+    libnwk_opt_halwrap_vendor \
+    libnxp_extamp_intf \
+    liboemcrypto \
+    libperfctl_vendor \
+    libpkm \
+    libpnpmgr \
+    libpower_timer \
+    libpowerhal \
+    libpowerhalwrap_vendor \
     libpq_cust_base \
     libpq_prot \
     libpqframework \
@@ -704,12 +1216,25 @@ PRODUCT_PACKAGES += \
     librilfusion \
     librpc \
     librt_extamp_intf \
+    libruy \
+    libscltm \
     libsegmention \
     libsegmentionPre \
+    libsensorndkbridge \
+    libsfplugin_ccodec_utils \
+    libshmemcompat \
+    libshmemutil \
+    libsimlock \
+    libsimmelock \
     libsmartdetector \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libst_mobile \
+    libstagefright_bufferpool@2.0.1 \
+    libstagefright_codecbase \
+    libstagefright_framecapture_utils \
+    libstagefright_softomx_plugin \
+    libstagefrighthw \
     libstblur_capture_api \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
@@ -722,10 +1247,13 @@ PRODUCT_PACKAGES += \
     libthha \
     libtlcWidevineModularDrm \
     libtneclient \
+    libtnev \
+    libtranlog \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
     libtranssion_bodybeauty \
+    libtranssion_cal \
     libtrm \
     libudf \
     liburee_meta_drmkeyinstall \
@@ -733,11 +1261,13 @@ PRODUCT_PACKAGES += \
     libvcodec_oal \
     libvcodec_utility \
     libvcodec_utility_plat.mt6789 \
+    libvcodec_utility_plat.mt6983 \
     libvcodecdrv \
     libvcodecdrv_header_stub \
     libvia-ril \
     libviagpsrpc \
     libviamipc-ril \
+    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -748,31 +1278,79 @@ PRODUCT_PACKAGES += \
     libvp9dec_sa.ca7 \
     libvpu \
     libvpu5 \
+    libvpud_vcodec \
+    libvpx \
+    libwa_depth \
+    libwa_dof \
+    libwa_refocus \
+    libwa_rtdof \
+    libwifi-hal \
+    libwifitest \
+    libwpa_client \
     libwpfa \
+    libwvdrmengine \
     libwvhidl \
+    libz_stable \
+    local_time.default \
+    loghidlvendorservice \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_apuware_apusys.xml \
     manifest_apuware_hmp.xml \
     manifest_apuware_utils.xml \
     manifest_cameraprovider.xml \
-    manifest_chipone.xml \
     manifest_hwcomposer.xml \
     mcDriverDaemon \
+    md_monitor \
+    md_monitor_ctrl \
+    meta_tst \
+    meta_wifi_data \
     mnld \
+    mrdump_tool \
+    mt6660_calibration \
     mtk_agpsd \
+    mtk_pkm_service \
+    mtk_plpath_utils_ota \
     mtkfusionrild \
+    muxreport \
     netdagent \
+    netdc \
     nvram_daemon \
+    nwk_opt_imp \
+    paytrigger.trustonic \
+    paytrigger_test \
+    pnpmgr \
+    power.default \
     rcs_volte_stack \
+    rt5512_calibration \
+    rttv_v2 \
     sensors.mediatek.V2.0 \
+    shared-file-region-aidl-cpp \
+    smartpa_nvtest \
+    sound_trigger.primary.default \
+    storage_feature_cloudctl \
+    stp_dump3 \
+    testgameserver \
     tetheroffloadservice \
     thermal_core \
+    thermal_hal \
     thermal_intf \
+    tranlog \
+    tranlogconfig \
+    vendor.mediatek.hardware.aee@1.0 \
+    vendor.mediatek.hardware.aee@1.1 \
+    vendor.mediatek.hardware.aee@1.1-service \
+    vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.atci@1.0 \
+    vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
@@ -788,13 +1366,23 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
+    vendor.mediatek.hardware.dmc@1.0 \
+    vendor.mediatek.hardware.dmc@1.1 \
+    vendor.mediatek.hardware.dmc@1.2 \
+    vendor.mediatek.hardware.engineermode@1.0 \
+    vendor.mediatek.hardware.engineermode@1.1 \
+    vendor.mediatek.hardware.engineermode@1.2 \
+    vendor.mediatek.hardware.engineermode@1.3 \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
+    vendor.mediatek.hardware.lbs@1.0 \
+    vendor.mediatek.hardware.log@1.0 \
     vendor.mediatek.hardware.mdmonitor@1.0 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
+    vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.0 \
     vendor.mediatek.hardware.mms@1.1 \
     vendor.mediatek.hardware.mms@1.2 \
@@ -804,6 +1392,11 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6 \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.mms@1.6-service \
+    vendor.mediatek.hardware.mtkpower@1.0 \
+    vendor.mediatek.hardware.mtkpower@1.0-service \
+    vendor.mediatek.hardware.mtkpower@1.1 \
+    vendor.mediatek.hardware.mtkpower@1.2 \
+    vendor.mediatek.hardware.mtkpower@1.2-impl \
     vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.netdagent@1.0 \
@@ -814,6 +1407,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.nvram@1.1-service \
+    vendor.mediatek.hardware.nwk_opt@1.0 \
+    vendor.mediatek.hardware.nwk_opt@1.0-service \
+    vendor.mediatek.hardware.paytrigger@1.0 \
+    vendor.mediatek.hardware.paytrigger@1.0-service \
     vendor.mediatek.hardware.paytrigger@1.0-service.xml \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
@@ -836,19 +1433,35 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.rcs@2.0 \
+    vendor.mediatek.hardware.tranHwInfo@1.0 \
+    vendor.mediatek.hardware.tranHwInfo@1.0-service \
     vendor.mediatek.hardware.tranHwInfo@1.0.xml \
+    vendor.mediatek.hardware.videotelephony@1.0 \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
+    vendor.nxp.nxpese@1.0 \
+    vendor.nxp.nxpnfc@2.0 \
+    vendor.storage@1.0-service \
+    vendor.tne@1.0-service \
+    vendor.transsion.hardware.tne.tneengine@1.0 \
     vendor.transsion.hardware.trancam.trancamserver@1.0 \
     vendor.transsion.hardware.trancam.trancamserver@1.0-service \
     vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
+    vendor.transsion.hardware.tranlog@1.0 \
+    vendor.transsion.hardware.tranlogconfig@1.0 \
+    vendor.transsion.hardware.transtorage.storage@1.0 \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     vendor.trustonic.tee@1.1-service \
+    vibrator.default \
     volte_clientapi_ua \
     volte_rcs_ua \
+    vpud \
     vtservice_hidl \
     vulkan.mali \
+    wifi_dump \
     wlan_assistant \
     wmt_launcher \
-    wmt_loader
+    wmt_loader \
+    wpa_cli \
+    wpa_supplicant
