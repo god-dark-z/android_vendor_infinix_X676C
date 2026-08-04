@@ -4033,23 +4033,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbinderdebug",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libbinderdebug.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libblisrc32_vendor",
 	owner: "infinix",
 	strip: {
@@ -5210,26 +5193,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_hidl@1.1",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.1.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.1.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcodec2_hidl@1.2",
 	owner: "infinix",
 	strip: {
@@ -5321,26 +5284,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_mtk_venc.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libcodec2_soft_common",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_soft_common.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -9326,26 +9269,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsfplugin_ccodec_utils",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsfplugin_ccodec_utils.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsfplugin_ccodec_utils.so"],
 		},
 	},
 	compile_multilib: "both",
