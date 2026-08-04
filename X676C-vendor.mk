@@ -408,7 +408,6 @@ PRODUCT_PACKAGES += \
     jpegtool \
     kmsetkey.trustonic \
     kmsetkey_ca.trustonic \
-    lbs_hidl_service@1.0.xml \
     lib3a.ae \
     lib3a.ae.core \
     lib3a.af \
