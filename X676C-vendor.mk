@@ -717,7 +717,6 @@ PRODUCT_PACKAGES += \
     aee_dumpstatev_v2 \
     aeev_v2 \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service.mediatek \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.bluetooth.audio@2.0-impl \
@@ -751,7 +750,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.secureclock-service.trustonic.xml \
     android.hardware.security.sharedsecret-service.trustonic.xml \
     android.hardware.sensors@2.0-service.multihal-mediatek \
-    android.hardware.soundtrigger@2.3-impl \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@2.0-impl \
     android.hardware.thermal@2.0-service.mtk \
@@ -760,15 +758,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek \
     android.hardware.wifi@1.0-service-lazy \
     android.hardware.wifi@1.0-service.xml \
-    applypatch \
     arm.graphics-V1-ndk_platform \
     atcid \
-    audio.bluetooth.default \
-    audio.primary.default \
     audio.primary.mediatek \
-    audio.r_submix.default \
     audio.r_submix.mediatek \
-    audio.usb.default \
     audio_common-aidl-cpp \
     audio_policy.stub \
     audioclient-types-aidl-cpp \
@@ -786,7 +779,6 @@ PRODUCT_PACKAGES += \
     conninfra_loader \
     dconfig \
     dexecutor \
-    dmabuf_dump \
     dmc_core \
     doeapp-memtester \
     doeapp-sat \
@@ -984,7 +976,6 @@ PRODUCT_PACKAGES += \
     libaudiotoolkit_vendor \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
-    libbinderdebug \
     libblisrc32_vendor \
     libbluetooth_audio_session \
     libbluetooth_audio_session_mediatek \
@@ -1269,7 +1260,6 @@ PRODUCT_PACKAGES += \
     libsegmention \
     libsegmentionPre \
     libsensorndkbridge \
-    libsfplugin_ccodec_utils \
     libshmemcompat \
     libshmemutil \
     libsimlock \
