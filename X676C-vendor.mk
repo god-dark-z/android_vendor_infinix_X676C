@@ -725,7 +725,6 @@ PRODUCT_PACKAGES += \
     conninfra_loader \
     dconfig \
     dexecutor \
-    dmabuf_dump \
     dmc_core \
     doeapp-memtester \
     doeapp-sat \

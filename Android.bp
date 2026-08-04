@@ -13094,15 +13094,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "dmabuf_dump",
-	owner: "infinix",
-	srcs: ["proprietary/vendor/bin/dmabuf_dump"],
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "dmc_core",
 	owner: "infinix",
 	srcs: ["proprietary/vendor/bin/dmc_core"],
