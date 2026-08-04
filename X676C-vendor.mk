@@ -713,7 +713,6 @@ PRODUCT_PACKAGES += \
     conninfra_loader \
     dconfig \
     dexecutor \
-    dmabuf_dump \
     dmc_core \
     doeapp-memtester \
     doeapp-sat \
@@ -873,7 +872,6 @@ PRODUCT_PACKAGES += \
     libaibc_tuning_p4 \
     libaidepth_tuning \
     libaiselector \
-    libalsautils \
     libamipengine \
     libanc_dc_base \
     libanc_hdr \
@@ -910,7 +908,6 @@ PRODUCT_PACKAGES += \
     libaudiotoolkit_vendor \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
-    libbinderdebug \
     libblisrc32_vendor \
     libbluetooth_audio_session \
     libbluetooth_audio_session_mediatek \
@@ -975,13 +972,9 @@ PRODUCT_PACKAGES += \
     libclearkeycasplugin \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
-    libcodec2_hidl@1.1 \
-    libcodec2_hidl@1.2 \
-    libcodec2_hidl_plugin \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
-    libcodec2_soft_common \
     libcodec2_soft_mtk_alacdec \
     libcodec2_soft_mtk_apedec \
     libcodec2_soft_mtk_imaadpcmdec \
@@ -1195,7 +1188,6 @@ PRODUCT_PACKAGES += \
     libsegmention \
     libsegmentionPre \
     libsensorndkbridge \
-    libsfplugin_ccodec_utils \
     libshmemcompat \
     libshmemutil \
     libsimlock \

@@ -3316,26 +3316,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libalsautils",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libalsautils.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libalsautils.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libamipengine",
 	owner: "infinix",
 	strip: {
@@ -4027,23 +4007,6 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libbinderdebug",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libbinderdebug.so"],
-		},
-	},
-	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5210,66 +5173,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_hidl@1.1",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.1.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.1.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libcodec2_hidl@1.2",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.2.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.2.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libcodec2_hidl_plugin",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_hidl_plugin.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_hidl_plugin.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcodec2_mtk_c2store",
 	owner: "infinix",
 	strip: {
@@ -5321,26 +5224,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_mtk_venc.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libcodec2_soft_common",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_soft_common.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -9335,26 +9218,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsfplugin_ccodec_utils",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsfplugin_ccodec_utils.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsfplugin_ccodec_utils.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libshmemcompat",
 	owner: "infinix",
 	strip: {
@@ -13165,15 +13028,6 @@ cc_prebuilt_binary {
 	name: "dexecutor",
 	owner: "infinix",
 	srcs: ["proprietary/vendor/bin/dexecutor"],
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "dmabuf_dump",
-	owner: "infinix",
-	srcs: ["proprietary/vendor/bin/dmabuf_dump"],
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
